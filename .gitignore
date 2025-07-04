@@ -1,0 +1,15 @@
+# node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# test reports
+allure-results/
+allure-report/
+
+# VS Code
+.vscode/
+
+# system
+.DS_Store
+Thumbs.db
