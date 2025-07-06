@@ -1,6 +1,6 @@
 export const config = {
   runner: 'local',
-  specs: ['./test/appdemo.test.js'],
+  specs: ['./test/appdemo.test.js', './test/appdemosesi14.test.js'],
   maxInstances: 1,
   capabilities: [{
     'platformName': 'Android',
