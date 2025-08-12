@@ -31,5 +31,16 @@ Projek ini berisi automation testing untuk **API Demos Android App** (`io.appium
 
 ## 🚀 Cara Menjalankan
 1. **Install Dependencies**
+   '''bash
+   npm install
+3. **Pastikan Appium Server Berjalan**
+   '''bash
+   appium
+5. **Pastikan Emulator / Device Tersambung**
+   '''bash
+   adb devices
+8. **Jalankan Test**
+   '''bash
+   npx wdio run wdio.conf.js
    ```bash
    npm install
